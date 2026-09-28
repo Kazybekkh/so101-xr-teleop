@@ -1,0 +1,838 @@
+{
+  "generated_utc": "2026-09-28T05:30:09.412979+00:00",
+  "source_files_verified_unchanged": true,
+  "files": [
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/main.py",
+      "destination": "bridge/hardware.py",
+      "source_sha256": "24887193a5c3429b7e407df66315384e5d239e71975d0290826570aacdd2c6da",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "4c4d8a39721ed35e7382f3145a92b258d729bbd03c94e41afc959087e2bb5cf1",
+      "modified_during_consolidation": true
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/xr_mapper.py",
+      "destination": "bridge/xr_mapper.py",
+      "source_sha256": "e876757015fc424a4ce06f264fed24c5caad6b55535aa1b6de28b36d9aa8df60",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "6b7f5f3adb486185b38f3dbd45b30509c63708842e7841b8e090fdbef4c3a19c",
+      "modified_during_consolidation": true
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/requirements.txt",
+      "destination": "bridge/requirements.txt",
+      "source_sha256": "331c382b2292cac238a8701c9c57e6764b7da21a4afa5409b9c9e57658ffaa28",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "0f6e8bfea683848d9c710f7cb62f4d4a98552d1cb755eb6082fb3fd8626bba26",
+      "modified_during_consolidation": true
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/broadcaster/main.py",
+      "destination": "broadcaster/main.py",
+      "source_sha256": "2fe5216e85b9e34b9630bb8dff5a77e69d3f8b8fd7a819526ae963fa3e8e35aa",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "322cd4a048009a698ce670c6eddaf3f8287a50d21fc63b68a3cf48dc3067e9aa",
+      "modified_during_consolidation": true
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/broadcaster/requirements.txt",
+      "destination": "broadcaster/requirements.txt",
+      "source_sha256": "896bf174bdb3a1382a5f4ba01b8b89b45db5b6e417ef119d095c1f8d956a3a38",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "b60b601409a1cb858a6b5f33a1a9a5d51a5f59771eab59e4e94876e11759be51",
+      "modified_during_consolidation": true
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/so101_new_calib.urdf",
+      "destination": "bridge/SO101/so101_new_calib.urdf",
+      "source_sha256": "3a65d2d35e68a8d2f0c2cc176d19b884506543c93ba72980145b80abe276022c",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "3a65d2d35e68a8d2f0c2cc176d19b884506543c93ba72980145b80abe276022c",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/assets/upper_arm_so101_v1.stl",
+      "destination": "bridge/SO101/assets/upper_arm_so101_v1.stl",
+      "source_sha256": "475056e03a17e71919b82fd88ab9a0b898ab50164f2a7943652a6b2941bb2d4f",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "475056e03a17e71919b82fd88ab9a0b898ab50164f2a7943652a6b2941bb2d4f",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/assets/motor_holder_so101_base_v1.stl",
+      "destination": "bridge/SO101/assets/motor_holder_so101_base_v1.stl",
+      "source_sha256": "31242ae6fb59d8b15c66617b88ad8e9bded62d57c35d11c0c43a70d2f4caa95b",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "31242ae6fb59d8b15c66617b88ad8e9bded62d57c35d11c0c43a70d2f4caa95b",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/assets/sts3215_03a_v1.stl",
+      "destination": "bridge/SO101/assets/sts3215_03a_v1.stl",
+      "source_sha256": "a37c871fb502483ab96c256baf457d36f2e97afc9205313d9c5ab275ef941cd0",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "a37c871fb502483ab96c256baf457d36f2e97afc9205313d9c5ab275ef941cd0",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/assets/wrist_roll_follower_so101_v1.stl",
+      "destination": "bridge/SO101/assets/wrist_roll_follower_so101_v1.stl",
+      "source_sha256": "4b17b410a12d64ec39554abc3e8054d8a97384b2dc4a8d95a5ecb2a93670f5f4",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "4b17b410a12d64ec39554abc3e8054d8a97384b2dc4a8d95a5ecb2a93670f5f4",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/assets/sts3215_03a_no_horn_v1.stl",
+      "destination": "bridge/SO101/assets/sts3215_03a_no_horn_v1.stl",
+      "source_sha256": "75ef3781b752e4065891aea855e34dc161a38a549549cd0970cedd07eae6f887",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "75ef3781b752e4065891aea855e34dc161a38a549549cd0970cedd07eae6f887",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/assets/under_arm_so101_v1.stl",
+      "destination": "bridge/SO101/assets/under_arm_so101_v1.stl",
+      "source_sha256": "d01d1f2de365651dcad9d6669e94ff87ff7652b5bb2d10752a66a456a86dbc71",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "d01d1f2de365651dcad9d6669e94ff87ff7652b5bb2d10752a66a456a86dbc71",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/assets/base_so101_v2.stl",
+      "destination": "bridge/SO101/assets/base_so101_v2.stl",
+      "source_sha256": "bb12b7026575e1f70ccc7240051f9d943553bf34e5128537de6cd86fae33924d",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "bb12b7026575e1f70ccc7240051f9d943553bf34e5128537de6cd86fae33924d",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/assets/moving_jaw_so101_v1.stl",
+      "destination": "bridge/SO101/assets/moving_jaw_so101_v1.stl",
+      "source_sha256": "785a9dded2f474bc1d869e0d3dae398a3dcd9c0c345640040472210d2861fa9d",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "785a9dded2f474bc1d869e0d3dae398a3dcd9c0c345640040472210d2861fa9d",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/assets/motor_holder_so101_wrist_v1.stl",
+      "destination": "bridge/SO101/assets/motor_holder_so101_wrist_v1.stl",
+      "source_sha256": "887f92e6013cb64ea3a1ab8675e92da1e0beacfd5e001f972523540545e08011",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "887f92e6013cb64ea3a1ab8675e92da1e0beacfd5e001f972523540545e08011",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/assets/base_motor_holder_so101_v1.stl",
+      "destination": "bridge/SO101/assets/base_motor_holder_so101_v1.stl",
+      "source_sha256": "8cd2f241037ea377af1191fffe0dd9d9006beea6dcc48543660ed41647072424",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "8cd2f241037ea377af1191fffe0dd9d9006beea6dcc48543660ed41647072424",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/assets/rotation_pitch_so101_v1.stl",
+      "destination": "bridge/SO101/assets/rotation_pitch_so101_v1.stl",
+      "source_sha256": "9be900cc2a2bf718102841ef82ef8d2873842427648092c8ed2ca1e2ef4ffa34",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "9be900cc2a2bf718102841ef82ef8d2873842427648092c8ed2ca1e2ef4ffa34",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+      "destination": "bridge/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+      "source_sha256": "6c7ec5525b4d8b9e397a30ab4bb0037156a5d5f38a4adf2c7d943d6c56eda5ae",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "6c7ec5525b4d8b9e397a30ab4bb0037156a5d5f38a4adf2c7d943d6c56eda5ae",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/elo-teleop/bridge/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+      "destination": "bridge/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+      "source_sha256": "e197e24005a07d01bbc06a8c42311664eaeda415bf859f68fa247884d0f1a6e9",
+      "source_revision": "working tree (untracked robot bridge/broadcaster)",
+      "destination_sha256": "e197e24005a07d01bbc06a8c42311664eaeda415bf859f68fa247884d0f1a6e9",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/lerobot/examples/phone_to_so100/teleoperate.py",
+      "destination": "examples/lerobot/phone_to_so100/teleoperate.py",
+      "source_sha256": "b06c44d6c1ed47dcf38372f5ffc8321007a0e2e9a3f19bb56d79e115a1d20e7c",
+      "destination_sha256": "b06c44d6c1ed47dcf38372f5ffc8321007a0e2e9a3f19bb56d79e115a1d20e7c",
+      "source_revision": "0b067df57d21d3a02d6c511f1609172fa39ac29b",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/lerobot/examples/phone_to_so100/record.py",
+      "destination": "examples/lerobot/phone_to_so100/record.py",
+      "source_sha256": "971c7456362559515917750646035131416c9ef591e34b8557398f30f96ce622",
+      "destination_sha256": "971c7456362559515917750646035131416c9ef591e34b8557398f30f96ce622",
+      "source_revision": "0b067df57d21d3a02d6c511f1609172fa39ac29b",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/lerobot/examples/phone_to_so100/replay.py",
+      "destination": "examples/lerobot/phone_to_so100/replay.py",
+      "source_sha256": "d2b1e287560f9937f2171d2608c32c3ed5497fc841aa9eccc7ecebca607f68f9",
+      "destination_sha256": "d2b1e287560f9937f2171d2608c32c3ed5497fc841aa9eccc7ecebca607f68f9",
+      "source_revision": "0b067df57d21d3a02d6c511f1609172fa39ac29b",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/lerobot/examples/phone_to_so100/evaluate.py",
+      "destination": "examples/lerobot/phone_to_so100/evaluate.py",
+      "source_sha256": "c4efdab8831a1c8069340acb505141b4eaf54ef17a1a6358af3fc9849fd0578b",
+      "destination_sha256": "c4efdab8831a1c8069340acb505141b4eaf54ef17a1a6358af3fc9849fd0578b",
+      "source_revision": "0b067df57d21d3a02d6c511f1609172fa39ac29b",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/lerobot/examples/so100_to_so100_EE/teleoperate.py",
+      "destination": "examples/lerobot/so100_to_so100_EE/teleoperate.py",
+      "source_sha256": "731841c921093bf4fafd8f621d2cc8301f6d913c7c4fb4a4ba6d7c2b782d00be",
+      "destination_sha256": "731841c921093bf4fafd8f621d2cc8301f6d913c7c4fb4a4ba6d7c2b782d00be",
+      "source_revision": "0b067df57d21d3a02d6c511f1609172fa39ac29b",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/lerobot/examples/so100_to_so100_EE/record.py",
+      "destination": "examples/lerobot/so100_to_so100_EE/record.py",
+      "source_sha256": "fffcf44483b922e5c9e9545249a6a4e65e548b89377d4c5a32b1d2d36141273e",
+      "destination_sha256": "fffcf44483b922e5c9e9545249a6a4e65e548b89377d4c5a32b1d2d36141273e",
+      "source_revision": "0b067df57d21d3a02d6c511f1609172fa39ac29b",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/lerobot/examples/so100_to_so100_EE/replay.py",
+      "destination": "examples/lerobot/so100_to_so100_EE/replay.py",
+      "source_sha256": "83febeb854de3434ff23f5748d1669b0cfc46e04b30c433aebf8bf12b729dfd2",
+      "destination_sha256": "83febeb854de3434ff23f5748d1669b0cfc46e04b30c433aebf8bf12b729dfd2",
+      "source_revision": "0b067df57d21d3a02d6c511f1609172fa39ac29b",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/lerobot/examples/so100_to_so100_EE/evaluate.py",
+      "destination": "examples/lerobot/so100_to_so100_EE/evaluate.py",
+      "source_sha256": "95bdba9eb6a67d71a346049d621ff09bdc94cc1281b64faf049068e5a65a7c51",
+      "destination_sha256": "95bdba9eb6a67d71a346049d621ff09bdc94cc1281b64faf049068e5a65a7c51",
+      "source_revision": "0b067df57d21d3a02d6c511f1609172fa39ac29b",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/lerobot/LICENSE",
+      "destination": "third_party/lerobot/LICENSE",
+      "source_sha256": "0583375a0ec642ec79c447781f34322b0cfa66baff31258214d040f1f6d86d7c",
+      "destination_sha256": "0583375a0ec642ec79c447781f34322b0cfa66baff31258214d040f1f6d86d7c",
+      "source_revision": "0b067df57d21d3a02d6c511f1609172fa39ac29b",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/.gitignore",
+      "destination": "experiments/canvas-grasp/.gitignore",
+      "source_sha256": "166569e72e5c6a973b4a0639540965c268b5fd06a7fdf0e3e69db82782df3a91",
+      "destination_sha256": "166569e72e5c6a973b4a0639540965c268b5fd06a7fdf0e3e69db82782df3a91",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/.oxlintrc.json",
+      "destination": "experiments/canvas-grasp/.oxlintrc.json",
+      "source_sha256": "b4d344818a1e1bf43997e4744a9153c8eef770c98b58229cd86363dabb85ded4",
+      "destination_sha256": "b4d344818a1e1bf43997e4744a9153c8eef770c98b58229cd86363dabb85ded4",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/README.md",
+      "destination": "experiments/canvas-grasp/README.source.md",
+      "source_sha256": "9c9b98bc1f39241f8fa66eaa6963a49b211630862eb6c82cb4e0e7907dfca3be",
+      "destination_sha256": "9c9b98bc1f39241f8fa66eaa6963a49b211630862eb6c82cb4e0e7907dfca3be",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/index.html",
+      "destination": "experiments/canvas-grasp/index.html",
+      "source_sha256": "3f26cb4d99d3aa1496a6fd04d22532ec864832f91a7a16ed4b2bedd8a5086588",
+      "destination_sha256": "3f26cb4d99d3aa1496a6fd04d22532ec864832f91a7a16ed4b2bedd8a5086588",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/package-lock.json",
+      "destination": "experiments/canvas-grasp/package-lock.json",
+      "source_sha256": "fd1eddad322bcdbdd7f2d9a1908764ae786c1a5a98be9ed804fc1bb94cd9b1ee",
+      "destination_sha256": "fd1eddad322bcdbdd7f2d9a1908764ae786c1a5a98be9ed804fc1bb94cd9b1ee",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/package.json",
+      "destination": "experiments/canvas-grasp/package.json",
+      "source_sha256": "de67c579ba7e12cd58408da0243630b43d091fc61c35072db3d8930a98b398ff",
+      "destination_sha256": "de67c579ba7e12cd58408da0243630b43d091fc61c35072db3d8930a98b398ff",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/tsconfig.app.json",
+      "destination": "experiments/canvas-grasp/tsconfig.app.json",
+      "source_sha256": "830bdc6f32c6aa714ef5ba42bea39f7ebead0593ab317267a90cbfead3f0ad55",
+      "destination_sha256": "830bdc6f32c6aa714ef5ba42bea39f7ebead0593ab317267a90cbfead3f0ad55",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/tsconfig.json",
+      "destination": "experiments/canvas-grasp/tsconfig.json",
+      "source_sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808",
+      "destination_sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/tsconfig.node.json",
+      "destination": "experiments/canvas-grasp/tsconfig.node.json",
+      "source_sha256": "d366cc0827139db39c61815f22491bbfda56c654354a42ad7795143d314e45e8",
+      "destination_sha256": "d366cc0827139db39c61815f22491bbfda56c654354a42ad7795143d314e45e8",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/vite.config.ts",
+      "destination": "experiments/canvas-grasp/vite.config.ts",
+      "source_sha256": "4d36db3522a7b2dd10e0936e1004373c7ee65f10f7cd7920cd76410459c15a45",
+      "destination_sha256": "4d36db3522a7b2dd10e0936e1004373c7ee65f10f7cd7920cd76410459c15a45",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/patches/perspective-transform+1.1.3.patch",
+      "destination": "experiments/canvas-grasp/patches/perspective-transform+1.1.3.patch",
+      "source_sha256": "0a3622649494617047871d70797bd29accab17e25286eac0e9fd6af2b3a3c660",
+      "destination_sha256": "0a3622649494617047871d70797bd29accab17e25286eac0e9fd6af2b3a3c660",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/bridge/__init__.py",
+      "destination": "experiments/canvas-grasp/bridge/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "destination_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/bridge/hardware.py",
+      "destination": "experiments/canvas-grasp/bridge/hardware.py",
+      "source_sha256": "bab02be8fc11a0cf4114ee48b50351fa87052c74baad98c91c585bada4da8a0c",
+      "destination_sha256": "bab02be8fc11a0cf4114ee48b50351fa87052c74baad98c91c585bada4da8a0c",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/bridge/ik.py",
+      "destination": "experiments/canvas-grasp/bridge/ik.py",
+      "source_sha256": "23326e3f2de8490cbb66150ef23d13197350f962c4da5fd0755feafb23bad7ba",
+      "destination_sha256": "23326e3f2de8490cbb66150ef23d13197350f962c4da5fd0755feafb23bad7ba",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/bridge/requirements.txt",
+      "destination": "experiments/canvas-grasp/bridge/requirements.txt",
+      "source_sha256": "6c59c7dddc237affc1daefcaaf3b371520a091908d4df274c7132c5ae299f08b",
+      "destination_sha256": "6c59c7dddc237affc1daefcaaf3b371520a091908d4df274c7132c5ae299f08b",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/bridge/safety.py",
+      "destination": "experiments/canvas-grasp/bridge/safety.py",
+      "source_sha256": "3b66ae64a60bc531010ba1be2fc664fa3b29988bf7b7d814a94ac73ca473d8e5",
+      "destination_sha256": "3b66ae64a60bc531010ba1be2fc664fa3b29988bf7b7d814a94ac73ca473d8e5",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/bridge/server.py",
+      "destination": "experiments/canvas-grasp/bridge/server.py",
+      "source_sha256": "49603216cc2f9ebe5cd5b885c5a3d533ce3b67d2068c73df454d8020301a47bf",
+      "destination_sha256": "49603216cc2f9ebe5cd5b885c5a3d533ce3b67d2068c73df454d8020301a47bf",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/public/favicon.svg",
+      "destination": "experiments/canvas-grasp/public/favicon.svg",
+      "source_sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66",
+      "destination_sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/public/icons.svg",
+      "destination": "experiments/canvas-grasp/public/icons.svg",
+      "source_sha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a",
+      "destination_sha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/App.tsx",
+      "destination": "experiments/canvas-grasp/src/App.tsx",
+      "source_sha256": "f91a48b39200931d9299c469698d39f7fecf71e7cf572097219a7c93f3201221",
+      "destination_sha256": "f91a48b39200931d9299c469698d39f7fecf71e7cf572097219a7c93f3201221",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/app.css",
+      "destination": "experiments/canvas-grasp/src/app.css",
+      "source_sha256": "dafcb22d924fd0b6483cf8d261e5627720cb8a5ab0b3060a94584d459cd0e1f2",
+      "destination_sha256": "dafcb22d924fd0b6483cf8d261e5627720cb8a5ab0b3060a94584d459cd0e1f2",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/index.css",
+      "destination": "experiments/canvas-grasp/src/index.css",
+      "source_sha256": "20aee1d1a809b4cde4fd5662c48bb47fd9419c027f7de62f76a75edcddcb8365",
+      "destination_sha256": "20aee1d1a809b4cde4fd5662c48bb47fd9419c027f7de62f76a75edcddcb8365",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/main.tsx",
+      "destination": "experiments/canvas-grasp/src/main.tsx",
+      "source_sha256": "6e9e5807fcbd48b75a96db5cbef36c996262196be42e6d4760dc86babbe61ad2",
+      "destination_sha256": "6e9e5807fcbd48b75a96db5cbef36c996262196be42e6d4760dc86babbe61ad2",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/types/perspective-transform.d.ts",
+      "destination": "experiments/canvas-grasp/src/types/perspective-transform.d.ts",
+      "source_sha256": "a0569c5c73cb827811c2d4bddf1ecccad78222c7b8a9d91a965a4f4afcff84a9",
+      "destination_sha256": "a0569c5c73cb827811c2d4bddf1ecccad78222c7b8a9d91a965a4f4afcff84a9",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/types/protocol.ts",
+      "destination": "experiments/canvas-grasp/src/types/protocol.ts",
+      "source_sha256": "6bef00966c8013e30212491acab6c954674e09b21dc5f841158f69935346d797",
+      "destination_sha256": "6bef00966c8013e30212491acab6c954674e09b21dc5f841158f69935346d797",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/shapes/GraspApproachShapeUtil.tsx",
+      "destination": "experiments/canvas-grasp/src/shapes/GraspApproachShapeUtil.tsx",
+      "source_sha256": "76582bed9db68b2161b168048d85586dc7e1beefa07fff52e763f51c1fff77ca",
+      "destination_sha256": "76582bed9db68b2161b168048d85586dc7e1beefa07fff52e763f51c1fff77ca",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/shapes/GraspBoxShapeUtil.tsx",
+      "destination": "experiments/canvas-grasp/src/shapes/GraspBoxShapeUtil.tsx",
+      "source_sha256": "30c560be7de003d1da3f289a426bd43a978f5f70c5efd0ac9aa055f7e7bf821f",
+      "destination_sha256": "30c560be7de003d1da3f289a426bd43a978f5f70c5efd0ac9aa055f7e7bf821f",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/shapes/GraspPointShapeUtil.tsx",
+      "destination": "experiments/canvas-grasp/src/shapes/GraspPointShapeUtil.tsx",
+      "source_sha256": "93937dc8ce55be6160200e85e4149082c0b1c0e45c09d089e3cb142b57f1b767",
+      "destination_sha256": "93937dc8ce55be6160200e85e4149082c0b1c0e45c09d089e3cb142b57f1b767",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/shapes/WebcamShapeUtil.tsx",
+      "destination": "experiments/canvas-grasp/src/shapes/WebcamShapeUtil.tsx",
+      "source_sha256": "747c2a242c11aabb89d9e04da8d28f3c26f60e7363de174e50981e9a99a87b50",
+      "destination_sha256": "747c2a242c11aabb89d9e04da8d28f3c26f60e7363de174e50981e9a99a87b50",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/shapes/index.ts",
+      "destination": "experiments/canvas-grasp/src/shapes/index.ts",
+      "source_sha256": "324704219335ab68f1c2e9a6a9fa05eafc92c56cb62bdc91e76d67e2897f0ce2",
+      "destination_sha256": "324704219335ab68f1c2e9a6a9fa05eafc92c56cb62bdc91e76d67e2897f0ce2",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/shapes/tldraw-augmentation.d.ts",
+      "destination": "experiments/canvas-grasp/src/shapes/tldraw-augmentation.d.ts",
+      "source_sha256": "0a3c92fd27c29599e220776d5c0312294adedf168da20f85cb3ce2bbb9a018c6",
+      "destination_sha256": "0a3c92fd27c29599e220776d5c0312294adedf168da20f85cb3ce2bbb9a018c6",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/components/CalibrationPanel.tsx",
+      "destination": "experiments/canvas-grasp/src/components/CalibrationPanel.tsx",
+      "source_sha256": "fe2496a9c78a29222614cd9c2a02b39523c561cdb6e9c26ca57e5c56e79c6530",
+      "destination_sha256": "fe2496a9c78a29222614cd9c2a02b39523c561cdb6e9c26ca57e5c56e79c6530",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/components/StatusPanel.tsx",
+      "destination": "experiments/canvas-grasp/src/components/StatusPanel.tsx",
+      "source_sha256": "d0413ee5ce012a6041ce6a5035a53bc0eb934147aa9d166acfa35546b8cd97c5",
+      "destination_sha256": "d0413ee5ce012a6041ce6a5035a53bc0eb934147aa9d166acfa35546b8cd97c5",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/hooks/useGraspBridge.ts",
+      "destination": "experiments/canvas-grasp/src/hooks/useGraspBridge.ts",
+      "source_sha256": "cfbfb154f4aa125e6e0a6eb8f6c4f6ebeb5284d72f7e99c3e8eddbb5c985a149",
+      "destination_sha256": "cfbfb154f4aa125e6e0a6eb8f6c4f6ebeb5284d72f7e99c3e8eddbb5c985a149",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/lib/annotations.ts",
+      "destination": "experiments/canvas-grasp/src/lib/annotations.ts",
+      "source_sha256": "9fc99a1c2c2baca0626f3ea2c29e0a51445ec500ffc77777cce3c0f8b92f7119",
+      "destination_sha256": "9fc99a1c2c2baca0626f3ea2c29e0a51445ec500ffc77777cce3c0f8b92f7119",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/lib/calibrationStore.ts",
+      "destination": "experiments/canvas-grasp/src/lib/calibrationStore.ts",
+      "source_sha256": "6803919502bd6b45ba8a15dcae74e13a0e158d714ec1e4c125348778e4dad4f6",
+      "destination_sha256": "6803919502bd6b45ba8a15dcae74e13a0e158d714ec1e4c125348778e4dad4f6",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/lib/config.ts",
+      "destination": "experiments/canvas-grasp/src/lib/config.ts",
+      "source_sha256": "72b81a5a38a2cad6b9b6e418a1fe01b07db350e15d01a6b9659c9588e84b959f",
+      "destination_sha256": "72b81a5a38a2cad6b9b6e418a1fe01b07db350e15d01a6b9659c9588e84b959f",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/lib/coordinatePipeline.ts",
+      "destination": "experiments/canvas-grasp/src/lib/coordinatePipeline.ts",
+      "source_sha256": "665d69526a3460e516b9733ff8696cab5a99737f636936124159772440d7f318",
+      "destination_sha256": "665d69526a3460e516b9733ff8696cab5a99737f636936124159772440d7f318",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/tldraw_demo/src/lib/videoRegistry.ts",
+      "destination": "experiments/canvas-grasp/src/lib/videoRegistry.ts",
+      "source_sha256": "6ad8a2dc042b2c19944566b6c0270c129f57a1b51eafb9b78f98fd1a90127160",
+      "destination_sha256": "6ad8a2dc042b2c19944566b6c0270c129f57a1b51eafb9b78f98fd1a90127160",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": "/Users/kazybekkhairulla/Developer/Projects/tldr_ai/PRD-grasp-annotator.md",
+      "destination": "experiments/canvas-grasp/docs/PRD-grasp-annotator.md",
+      "source_sha256": "eef9a617ebf9cad72da8d8a422ff0b3d05d8f5ea1a4373410d920a76f574a9c0",
+      "destination_sha256": "eef9a617ebf9cad72da8d8a422ff0b3d05d8f5ea1a4373410d920a76f574a9c0",
+      "source_revision": "local working tree",
+      "modified_during_consolidation": false
+    },
+    {
+      "source": ".gitignore",
+      "destination": "operator/.gitignore",
+      "source_sha256": "e8d86960cb944a3c23f41a21268dd347dc33977aa1838ab93a4e7934e558f4b3",
+      "destination_sha256": "f5392f16883241fceb85f1183151e3b441d08d89b59a2e1f95cd38f9b95de6ab",
+      "modified_during_consolidation": true,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "eslint.config.mjs",
+      "destination": "operator/eslint.config.mjs",
+      "source_sha256": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493",
+      "destination_sha256": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "next.config.ts",
+      "destination": "operator/next.config.ts",
+      "source_sha256": "95bf1418ec350ad904eb5795822f8c88ae1b3cc4852aa5255f26f81122da270f",
+      "destination_sha256": "39ef3e78f001046d305921894c9ea36a9c2975c846a5bb9086bd38d1729b6280",
+      "modified_during_consolidation": true,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "package-lock.json",
+      "destination": "operator/package-lock.json",
+      "source_sha256": "f268fb0bb0e72b9aab0356ea208c007ab0d142d4060d6391bb3750461f764fd4",
+      "destination_sha256": "dd3ec3876b2ecb88f1e47ee25645069443231fc30b911eaea4d1d9d376b88b6c",
+      "modified_during_consolidation": true,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "package.json",
+      "destination": "operator/package.json",
+      "source_sha256": "7faed484c2173469fdd68b46254234ad9fab66cf72dc84b434775d2c86ac2675",
+      "destination_sha256": "faec5b816e924d34fb289966084c51fa6de83ac460e81ee199883bf1e0bf12de",
+      "modified_during_consolidation": true,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "postcss.config.mjs",
+      "destination": "operator/postcss.config.mjs",
+      "source_sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+      "destination_sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "public/file.svg",
+      "destination": "operator/public/file.svg",
+      "source_sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+      "destination_sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "public/globe.svg",
+      "destination": "operator/public/globe.svg",
+      "source_sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+      "destination_sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "public/next.svg",
+      "destination": "operator/public/next.svg",
+      "source_sha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
+      "destination_sha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "public/vercel.svg",
+      "destination": "operator/public/vercel.svg",
+      "source_sha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
+      "destination_sha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "public/window.svg",
+      "destination": "operator/public/window.svg",
+      "source_sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+      "destination_sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/api/host/route.ts",
+      "destination": "operator/src/app/api/host/route.ts",
+      "source_sha256": "f1d66bf49c99e1da7e15f5be986fa37cb0c0515b0b6ec7f33f57e6bf9af9df0b",
+      "destination_sha256": "f1d66bf49c99e1da7e15f5be986fa37cb0c0515b0b6ec7f33f57e6bf9af9df0b",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/api/input/push/route.ts",
+      "destination": "operator/src/app/api/input/push/route.ts",
+      "source_sha256": "df0fcec4a186671ef266b6218978e4b668daa8decd6f4b102c7884a92d2fac42",
+      "destination_sha256": "df0fcec4a186671ef266b6218978e4b668daa8decd6f4b102c7884a92d2fac42",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/api/input/stream/route.ts",
+      "destination": "operator/src/app/api/input/stream/route.ts",
+      "source_sha256": "290c7015140adbc22fa064056caafd645ea5eb4b85abc446deb6b30f2f259ee0",
+      "destination_sha256": "290c7015140adbc22fa064056caafd645ea5eb4b85abc446deb6b30f2f259ee0",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/api/publisher/publish/route.ts",
+      "destination": "operator/src/app/api/publisher/publish/route.ts",
+      "source_sha256": "a2a2c95f5efa2597314fdffff7f461b49cc63261781b1ec96b49fcf1e1c0cf8a",
+      "destination_sha256": "a2a2c95f5efa2597314fdffff7f461b49cc63261781b1ec96b49fcf1e1c0cf8a",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/api/publisher/tracks/route.ts",
+      "destination": "operator/src/app/api/publisher/tracks/route.ts",
+      "source_sha256": "ccebe3940f147e6fd77b6ab4a253cc8c4bc2131c49743d232f783c799e0f0c73",
+      "destination_sha256": "ccebe3940f147e6fd77b6ab4a253cc8c4bc2131c49743d232f783c799e0f0c73",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/api/recording/save-session/route.ts",
+      "destination": "operator/src/app/api/recording/save-session/route.ts",
+      "source_sha256": "e26bef124fa0ae9bc04ff32ba29a066ac0a196567e487b36a8a5824ebd720c8e",
+      "destination_sha256": "e26bef124fa0ae9bc04ff32ba29a066ac0a196567e487b36a8a5824ebd720c8e",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/api/recording/save/route.ts",
+      "destination": "operator/src/app/api/recording/save/route.ts",
+      "source_sha256": "6d03f4716efa749c814c3c5ba1e7fc8f535e228643783752cf3e240b36e001bf",
+      "destination_sha256": "6d03f4716efa749c814c3c5ba1e7fc8f535e228643783752cf3e240b36e001bf",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/api/viewer/renegotiate/route.ts",
+      "destination": "operator/src/app/api/viewer/renegotiate/route.ts",
+      "source_sha256": "0c59ecc51d9082d5017c0a56febc1730beb52c56e8907813cf2dc2d2735639de",
+      "destination_sha256": "0c59ecc51d9082d5017c0a56febc1730beb52c56e8907813cf2dc2d2735639de",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/api/viewer/subscribe/route.ts",
+      "destination": "operator/src/app/api/viewer/subscribe/route.ts",
+      "source_sha256": "2731d16010a0380c65434ea968483485f42eb93aaa7ab6d352f5492d09f6371d",
+      "destination_sha256": "cfb6a7b732298768d3fb73580429274723217f75a63e877112d60250b737315b",
+      "modified_during_consolidation": true,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/api/viewer/tracks/route.ts",
+      "destination": "operator/src/app/api/viewer/tracks/route.ts",
+      "source_sha256": "ca6f79df03c4a9962a95487aaeadc0e70e1ea17191bb175ac290d63b42549f2f",
+      "destination_sha256": "ca6f79df03c4a9962a95487aaeadc0e70e1ea17191bb175ac290d63b42549f2f",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/favicon.ico",
+      "destination": "operator/src/app/favicon.ico",
+      "source_sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932",
+      "destination_sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/globals.css",
+      "destination": "operator/src/app/globals.css",
+      "source_sha256": "769edf77bd0d101a2d26e6c5656defba8cd885ff37d92279fa293a2756fe5651",
+      "destination_sha256": "769edf77bd0d101a2d26e6c5656defba8cd885ff37d92279fa293a2756fe5651",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/layout.tsx",
+      "destination": "operator/src/app/layout.tsx",
+      "source_sha256": "439a0f8390458bb01dd5d7ae600d0d6823e5026d6e98931233b0b35361dd694a",
+      "destination_sha256": "2e52c1a39bd4ffc4c5220e6f3f6bd19c4f878fef61202fe86bc5de4d88972bbd",
+      "modified_during_consolidation": true,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/page.tsx",
+      "destination": "operator/src/app/page.tsx",
+      "source_sha256": "076d17b405c2f529fb14854d8e4d51932492c37f0daabbcb1a41c9996f8d17d7",
+      "destination_sha256": "e2598a5cc4eb987e364584aa05167c39c42abc5c181f3f19ff5e177d3df93410",
+      "modified_during_consolidation": true,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/publisher/page.tsx",
+      "destination": "operator/src/app/publisher/page.tsx",
+      "source_sha256": "68fabeec1b265849a6af1dd6d23485f8d799545ab41150557ac7f761614ea219",
+      "destination_sha256": "6d14b5a297458571f24b9a42f1b6b9f1a8a615b56eaf3330d7aa5e11f5cdba97",
+      "modified_during_consolidation": true,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/app/viewer/page.tsx",
+      "destination": "operator/src/app/viewer/page.tsx",
+      "source_sha256": "559b011274ac289e917b138c2c9d2d123f978366eea4b5e3b48897c8ad828db4",
+      "destination_sha256": "ffaac2b629b6d78a4b90b86e1e31c215c0f46b64953319fc1c14547697cd608d",
+      "modified_during_consolidation": true,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/lib/hud.ts",
+      "destination": "operator/src/lib/hud.ts",
+      "source_sha256": "7090d9401d8b07a092f7ed44753f2ea7c179d16cfdd8d0574ad5eb8aeb9326ca",
+      "destination_sha256": "04a07476b3de026680abe7aadfb2933d00040682b02c043d2abc18ae7988bd8d",
+      "modified_during_consolidation": true,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/lib/input-broker.ts",
+      "destination": "operator/src/lib/input-broker.ts",
+      "source_sha256": "ac59238ca04aabe2268802e5c5aba09c4aa3d416b7390a7828b2e3a235e873fa",
+      "destination_sha256": "ac59238ca04aabe2268802e5c5aba09c4aa3d416b7390a7828b2e3a235e873fa",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/lib/types.ts",
+      "destination": "operator/src/lib/types.ts",
+      "source_sha256": "1372ba68ebc78b38cd32527ef97f2cffac829b118835d83d9e280a80b58d9f97",
+      "destination_sha256": "ddfa260b1810357e043bb3b9bbd7bef005c3403211a07200c700ff2cfa5e072a",
+      "modified_during_consolidation": true,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "src/lib/xr-input.ts",
+      "destination": "operator/src/lib/xr-input.ts",
+      "source_sha256": "d6cb56c6b5383e9c7e0ff90f61a761b3af789628ebd0ebbc1dc4d4d2f95cc4a9",
+      "destination_sha256": "d6cb56c6b5383e9c7e0ff90f61a761b3af789628ebd0ebbc1dc4d4d2f95cc4a9",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    },
+    {
+      "source": "tsconfig.json",
+      "destination": "operator/tsconfig.json",
+      "source_sha256": "f2a6e92f7f46df8139cbc72471ef3c87fe54cee4171f29e4ee9a842ccb8e972a",
+      "destination_sha256": "f2a6e92f7f46df8139cbc72471ef3c87fe54cee4171f29e4ee9a842ccb8e972a",
+      "modified_during_consolidation": false,
+      "source_revision": "3dd3cee28ef708ec8e8fe6b5058a27c374c51c02",
+      "source_repository": "/Users/kazybekkhairulla/elo-teleop"
+    }
+  ]
+}

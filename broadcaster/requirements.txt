@@ -1,0 +1,6 @@
+aiortc>=1.9,<2
+aiohttp>=3.9,<4
+av>=15,<17
+numpy>=1.26,<3
+opencv-python>=4.8,<5
+qrcode>=7.4,<9

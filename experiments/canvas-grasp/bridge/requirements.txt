@@ -1,0 +1,4 @@
+websockets>=12.0
+
+# M4 (real motion) - uncomment once you have an SO-101 attached:
+# lerobot

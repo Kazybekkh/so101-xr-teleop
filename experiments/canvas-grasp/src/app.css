@@ -1,0 +1,285 @@
+.app {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	background: #0b0c0f;
+}
+
+.canvas-area {
+	position: relative;
+	flex: 1;
+	min-width: 0;
+}
+
+.webcam-error {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	background: #1a1b20;
+	color: #f3b0b0;
+	text-align: center;
+	padding: 12px;
+	font-size: 13px;
+}
+
+/* ---------------- Status panel ---------------- */
+
+.status-panel {
+	width: 340px;
+	flex-shrink: 0;
+	background: #16171d;
+	color: #d6d7db;
+	border-left: 1px solid #2a2b33;
+	overflow-y: auto;
+	padding: 16px;
+	font-size: 13px;
+}
+
+.status-panel h2 {
+	margin: 0 0 16px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.panel-section {
+	border-top: 1px solid #262730;
+	padding: 14px 0;
+}
+
+.panel-section:first-of-type {
+	border-top: none;
+}
+
+.panel-section h3 {
+	margin: 0 0 8px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: #8b8d98;
+}
+
+.field {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	margin-bottom: 8px;
+	font-size: 12px;
+	color: #b6b8c0;
+}
+
+.field input,
+.field select {
+	background: #202129;
+	border: 1px solid #33343f;
+	color: #e4e5e9;
+	border-radius: 5px;
+	padding: 6px 8px;
+	font-size: 13px;
+}
+
+button {
+	background: #26272f;
+	color: #e4e5e9;
+	border: 1px solid #34353f;
+	border-radius: 6px;
+	padding: 7px 12px;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+	background: #2f303a;
+}
+
+button:disabled {
+	opacity: 0.4;
+	cursor: not-allowed;
+}
+
+button.primary {
+	background: #0d9488;
+	border-color: #0d9488;
+	color: white;
+	width: 100%;
+	margin-top: 8px;
+}
+
+button.primary:hover:not(:disabled) {
+	background: #0f7a70;
+}
+
+.muted {
+	color: #71737e;
+}
+
+.warn {
+	color: #f0b429;
+}
+
+.calibration-status {
+	margin: 0 0 8px;
+}
+
+.json-output {
+	background: #0c0d11;
+	border: 1px solid #262730;
+	border-radius: 6px;
+	padding: 10px;
+	font-family: ui-monospace, Consolas, monospace;
+	font-size: 12px;
+	white-space: pre-wrap;
+	word-break: break-word;
+	max-height: 220px;
+	overflow-y: auto;
+}
+
+.toggle {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 4px;
+	cursor: pointer;
+}
+
+.bridge-state {
+	padding: 6px 8px;
+	border-radius: 5px;
+	background: #202129;
+	margin: 0 0 8px;
+}
+
+.bridge-state--moving {
+	color: #f0b429;
+}
+
+.bridge-state--done {
+	color: #4ade80;
+}
+
+.bridge-state--error {
+	color: #f87171;
+}
+
+.bridge-log {
+	max-height: 160px;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	font-family: ui-monospace, Consolas, monospace;
+	font-size: 11px;
+}
+
+.log-entry {
+	display: flex;
+	gap: 6px;
+	padding: 3px 6px;
+	border-radius: 4px;
+	background: #1b1c22;
+}
+
+.log-entry--sent {
+	border-left: 2px solid #38bdf8;
+}
+
+.log-entry--received {
+	border-left: 2px solid #4ade80;
+}
+
+.log-entry--info {
+	border-left: 2px solid #71737e;
+	color: #8b8d98;
+}
+
+.log-time {
+	color: #71737e;
+	flex-shrink: 0;
+}
+
+.log-message {
+	overflow-wrap: anywhere;
+}
+
+/* ---------------- Calibration modal ---------------- */
+
+/* Deliberately click-through: calibration capture needs clicks to reach the video
+   feed underneath, so only .calibration-panel itself (not this wrapper) is interactive. */
+.modal-overlay {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	justify-content: center;
+	padding-top: 24px;
+	z-index: 500;
+	pointer-events: none;
+}
+
+.calibration-panel {
+	background: #16171d;
+	color: #d6d7db;
+	border: 1px solid #2a2b33;
+	border-radius: 10px;
+	padding: 20px;
+	width: min(520px, 90vw);
+	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+	pointer-events: auto;
+}
+
+.calibration-panel h3 {
+	margin: 0 0 8px;
+	color: #fff;
+}
+
+.calibration-hint {
+	font-size: 12px;
+	color: #9294a0;
+	margin: 0 0 14px;
+}
+
+.calibration-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 16px;
+}
+
+.calibration-table th,
+.calibration-table td {
+	padding: 6px 8px;
+	text-align: left;
+	font-size: 12px;
+	border-bottom: 1px solid #262730;
+}
+
+.calibration-table input {
+	width: 80px;
+	background: #202129;
+	border: 1px solid #33343f;
+	color: #e4e5e9;
+	border-radius: 4px;
+	padding: 4px 6px;
+}
+
+.calibration-table tr.armed {
+	background: rgba(13, 148, 136, 0.15);
+}
+
+.pixel-cell {
+	font-family: ui-monospace, Consolas, monospace;
+	color: #8b8d98;
+}
+
+.capture-btn.armed {
+	background: #0d9488;
+	border-color: #0d9488;
+	color: white;
+}
+
+.calibration-actions {
+	display: flex;
+	justify-content: flex-end;
+	gap: 8px;
+}

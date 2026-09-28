@@ -1,0 +1,12 @@
+diff --git a/node_modules/perspective-transform/dist/perspective-transform.js b/node_modules/perspective-transform/dist/perspective-transform.js
+index 6bcb248..12e9d00 100644
+--- a/node_modules/perspective-transform/dist/perspective-transform.js
++++ b/node_modules/perspective-transform/dist/perspective-transform.js
+@@ -177,7 +177,6 @@
+     		return ret;
+ 		};
+ 
+-        this.numeric = numeric;
+ 		root.numeric = numeric;
+ 	}
+ 
